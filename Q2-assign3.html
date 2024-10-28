@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>E-commerce page</title>
+	<link rel="stylesheet" href="Q2-css.css">
+	<style>
+		@font-face{
+			font-family:myFont;
+			src:url("Nunito-VariableFont_wght.ttf")
+		}
+		#Top1{
+			color: white;
+			background-color: rgba(18, 48, 38,1);
+			font-family: myFont;
+ 			font-optical-sizing: auto;
+  			font-weight: 500;
+  			font-style: normal;
+			padding: 10px 0 0px 0;
+			position:fixed;
+			width: 100%;
+			height: 30px;
+		}
+		.Top2 {
+			display:flex;
+			padding: 0px 0px 0 20px; 
+			background-color: white;
+			align-items: center;
+			height: 90px;
+			position:absolute;
+			width: 100%;
+			margin-top: 0px;
+			
+		}
+/*    To Check for the precedence for each type of selectors overothers.*/
+		.Top3{
+			height: 180px;
+/*			background-color: black; it won't work over id class selector work    */
+		}
+/*
+		#Top3{
+			background-color: red;  it will work over the class selector
+		}
+*/
+		.Top4 {
+			height: 50px;
+			color: white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-top: 5px;
+		}
+		.Top4 div img {
+    		display: block;
+    		margin-bottom: 5px; 
+		}
+		.Top5{
+			padding-top: 260px;
+			height: 150px;
+			display:block;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+		}
+		.Top6{
+			color: rgba(18, 48, 38,1);
+			font-size: 40px;
+			font-style: oblique;
+			height: 700px;
+		}
+		.Top7{
+			background-color:#DEFAFF;
+			font-size: 70px;
+			color: rgba(18, 48, 38,1);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 450px;
+		}
+		.Top8{
+			background-color:rgba(18, 48, 38,1);
+		}
+	</style>
+	
+</head>
+
+<body>
+	<header class="Top">
+		<p id="Top1">Shop Now. Free Shipping And Exchanges in the India</p>
+	</header>
+	<div class="Top2">
+		<img src="e-com-img/aksha_shoe_logo.png" alt="Logo1" width="260px" height="80px"> &emsp;&emsp;&emsp;
+		<a href="d" class="a" style="vertical-align: middle;">Rain</a> &emsp;&emsp;&emsp;
+<!--
+		<input type= value="check">
+		<input type="radio" >hello
+		<input type = "radio">helo
+-->
+		<a href="d" class="a" style="vertical-align: middle;">Snow</a>	&emsp;&emsp;&emsp;
+		<a href="d" class="a">The Weekend Boot</a>&emsp;&emsp;&emsp;
+		<a href="d" class="a">Shop All</a>&emsp;&emsp;&emsp;&emsp;&emsp;
+		<img src="e-com-img/icon-search.png" alt="Search logo" class="search-logo">&emsp;&emsp;
+		<img src="e-com-img/icon-person.png" alt="Person logo" class="logo" width="30px" height="30px"> &emsp;&emsp;
+		<img src = "e-com-img/icon-bag.png" alt ="Bag Logo" width="25px" height="25px" class="logo">
+	</div>
+	<div class= "transparent-bg" align="center">
+		<div class="c1">
+			<h1>Sustainable Boots That Take you <br>
+				From Season to Season.</h1>
+		</div><br>
+		<div class="button" >
+			<div class="bg"></div>
+			<div class="text" style="color: black;align-content: center;">
+				<a href="https://www.amazon.in/" style="color: black;text-decoration: none" >
+					Shop Now 
+				<img src="e-com-img/icon-up.png" width="17px" height="17px" alt="img" style="padding-top:2px">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="Top3" align="center" style="color: rgba(18, 48, 38,1)" id="Top3">
+		<h1 style="font-size: 50px">Sustainable Outdoor Essentials</h1>
+		<p style="font-size: 20px">Made with natural and recycled materials. Only a few sizes left. Get 
+			<br> them before they're gone.
+		</p>
+	</div>
+	<div class= "Top4" >
+		<div style="display:block;margin-right: 10px">
+			<img src="e-com-img/img1.png" alt="img1" width="300px" height="200px" class="image"><br>
+			<a href="d" style="text-decoration: none;color: rgba(18, 48, 38,1);" class="go">All Weather &rarr;</a>
+		</div>
+		
+		<div style="display:block;margin-right: 10px" >
+			<img src="e-com-img/img2.png" alt="img1" width="300px" height="200px" class="image"><br>
+			<a href="d" style="text-decoration: none;color: rgba(18, 48, 38,1);" class="go" >Rain &rarr;</a>
+		</div>
+		
+		<div style="display:block;margin-right: 10px">
+			<img src="e-com-img/img3.png" alt="img1" width="300px" height="200px" class="image"><br>
+			<a href="d" style="text-decoration: none;color: rgba(18, 48, 38,1);" class="go" >Snow &rarr;</a> 
+		</div>
+		
+		<div style="display:block;margin-right: 10px">
+			<img src="e-com-img/img4.png" alt="img1" width="300px" height="200px" class="image"><br>
+			<a href="d" style="text-decoration: none;color: rgba(18, 48, 38,1);" class="go">Sun &rarr;</a>
+		</div>
+	</div>
+	<div class="Top5">
+			<a href="rh" style="color:rgba(18, 48, 38,1);font-size: 50px ">Find Your Size. Free Shipping.
+				<br> Easy Returns.
+			</a>
+	</div>
+	<div style="height: 600px; width: 100%; display: flex;">
+		<div style=" height: 100%; width: 50%;">
+			<img src ="e-com-img/skyimg.png" alt="sky" width="100%" height="450px" id="sky">
+		</div>
+		<div style="height: 100%; width: 50%;">
+			<p id="text2">No Plastic.<br>
+						More Nature. <br>
+						Less Waste. <br>
+				<a href="" class="more">
+					Learn More
+				</a>
+			</p>
+		</div>
+	</div>
+	<div style=" height: 500px; width: 100%; display: flex;">
+		<div style="height: 100%; width: 50%;" class="Top6">
+			<p style="padding-left: 30px;font-size: 60px;">*****
+			</p>
+				<p>"The Weekend Boots have a very nice padding in the sole which makes it comfortable to wear for long periods of time and these shoes definitely fit very true to size."
+				</p>
+			<p style="text-align: right;font-size: 50px;padding-right: 15px;">-Claire
+			</p>
+		</div>
+		<div style="background-color: green; height: 100%; width: 50%;" class="Top7">
+			<img src="e-com-img/Shoe_1.png" alt = "quote" width="100%" height="100%">
+		</div>
+	</div>
+	<div class="Top7">
+		<div style="height: 50%;width: 100%;position: absolute;display: block">
+			<p style="padding-top:50px;" >Join Us For The Next Phase of 
+				<br>#Re-generation
+			</p>
+		</div>
+		<div style="height: 50%;width: 100%;display: block;padding-top: 250px;padding-left: 35%">
+		<form action="/submit-email" method="post">
+  		<input type="email" id="email" name="email" required placeholder="  Your e-mail" style="width: 50%;height: 50px;font-size: 25px;border-radius: 5px;border:ridge;margin-right: -10px; margin-top: 90px">
+  		<input type="Submit" value="Sign up" style="width: 12%;height: 1.50cm;font-size: 16px;color: white;border-radius: 6px;background-color:rgba(18, 48, 38,1);padding: 10px;border:medium;margin-left:0px;font-weight: 600">
+		</form>
+		</div>
+	</div>
+	<div style="height: 300px; width: 100%; display: flex;" class="Top8">
+		<div style=" height: 100%; width: 25%;margin-left:15px">
+			<img src="e-com-img/aksha_shoe_logo-removebg.png" width="200pt" height="70pt" alt="bg"><br>
+			<p style="color: white;font-size: 20px;font-weight: 700">Socially and environmentally
+				progressive outdoor footwear</p>
+			<br>
+			<img src="Images/kstd_sam_img/facebook.png" alt="fb" width="20pc" height="20pc" style="margin-left: 40px">
+			<img src="Images/kstd_sam_img/instagram.png" alt="insta" width="20pc" height="20pc">
+			<img src="Images/kstd_sam_img/twitter.png" alt="tw" width="20pc" height="20pc">
+			<img src="Images/kstd_sam_img/youtube.png" alt="tw" width="20pc" height="20pc">
+			
+		</div>
+		<div style=" height: 100%; width: 25%;">
+			<header style="font-size: 20px;font-weight: 700;color:white;padding-left: 35px">Our Shop</header>
+			<ul type="none" style="color: white;">
+			<li>All Products</li>
+			<li>The Weekend Boot™ </li>
+			<li>The Anyday Rain Boot™ </li>
+			<li>The Modern Winter Boot™ </li>
+			<li>The Winter Weekend Boot Z™ </li>
+			<li>The Aksha™ Clog </li>
+			<li>Accessories </li>
+			<li>Aksha™ Gift Card</li>
+				</ul>
+		</div>
+		<div style="height: 100%; width: 25%;">
+			<header style="font-size: 20px;font-weight: 700;color:white;padding-left: 35px">Help</header>
+			<ul type="none" style="color: white">
+			<li>SIze guide</li>
+			<li>Shipping Policy</li>
+			<li>Refund Policy</li>
+			<li>Wear and Care FAQ</li>
+				</ul>
+		</div>
+		<div style="height: 100%; width: 25%;">
+			<header style="font-size: 20px;font-weight: 700;color:white;padding-left: 35px">About us</header>
+			<ul type="none" style="color: white">
+			<li>Values</li>
+			<li>Contact Us</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0 ;
+	font-family: myFont;
+}
+div {
+			width: 100%;
+			height: 40px;
+	}
+
+p{
+	text-align:center;
+	font-family: 'Atak', sans-serif;
+	}
+.a{
+			color: rgba(18, 48, 38,1);
+			vertical-align: middle;
+			text-decoration: none;
+			position: relative;
+	}
+.search-logo{
+			padding-left: 250px;
+		}
+.transparent-bg{
+        width: 100%;
+        height: 500px;
+        background: url("e-com-img/shoes_bg.jpg"),
+                   linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); 
+        color: white;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        
+    }
+ .c1 {
+        margin-bottom: 20px;
+    }
+.button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+		margin-bottom: 10px;
+    }
+.bg{
+        background-color: antiquewhite;
+        width: 150px;
+        height: 40px;
+        position: absolute;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+.bg:hover {
+            width: 200px;
+        }
+.text{
+		margin-top: 17px;
+        position: relative;
+    }
+.image:hover {
+            width: 330px;
+			height: 220px;
+    }
+.go{
+		display: flex;
+		position: relative;
+}
+
+#sky{
+			padding-top: 100px;
+	}
+#text2{
+			padding-top: 150px;
+			font-size: 60px;
+			color: rgba(18, 48, 38,1);
+			font-style: bold;
+	}
+.more{
+			background-color: rgba(18, 48, 38,1);
+			padding: 15px;
+			width: 100px;
+			height: 10px;
+			border-radius: 15px;
+			font-size: 20px;
+			text-decoration: none;
+			color: white;
+}
+/*Pesudo class elements*/
+input:focus {
+    border: 2px solid blue;
+    background-color:#C3FFFA;
+}
+li{
+	margin: 10px;
+}
+/*
+.Top3{
+			background-color: red;   it won't work over the internal css for the same element
+		}
+*/
+/*Internal styles are overridden by inline styles but have higher specificity than external styles.*/
